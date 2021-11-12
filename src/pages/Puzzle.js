@@ -208,7 +208,7 @@ class Puzzle extends React.Component {
 
     render(){
       return (
-        <Container className="h-100">
+        <Container fluid className="h-100">
           <Row className="h-100 g-0">
             <Col className="p-md-5 p-sm-2" md="9">
               <Row className="h-100 g-0">

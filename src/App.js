@@ -54,8 +54,8 @@ class App extends React.Component {
           {/* A <Switch> looks through its children <Route>s and
           renders the first one that matches the current URL. */}
           <div className="main-section">
-            <Container fluid className="h-100 p-0">
-              <Row className="h-100 g-0">
+            <Container fluid className="p-0" style={{ minHeight:'84vh', maxHeight:'100%' }}>
+              <Row className="h-100 g-0" style={{ minHeight:'84vh', maxHeight:'100%' }}>
                 <Col className="p-0 d-none d-md-block" md="auto">
                   <Sidebar toggle={ this.state.sidebarToggle } />
                 </Col>
