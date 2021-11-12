@@ -2,9 +2,38 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.pro-sidebar-inner{
+  background-color: #3A7192 !important;
+  color: #FFFFFF !important;
+}
+
+.pro-sidebar-header{
+  
+}
+
+.pro-sidebar-footer{
+  border-top-color: rgba(173, 173, 173, 0.6) !important;
+}
+
+.main-section{
+  height: 84vh;
+}
+
+.sidebar-container{
+  height:100%
+}
+
+.page-container{
+  background-color: #393939;
+}
+
+@media only screen and (max-width:776px){
+  .sidebar-container{
+      height:0
+  }
+  .main-section{
+    height: 100%
+  }
 }
 
 @media (prefers-reduced-motion: no-preference) {

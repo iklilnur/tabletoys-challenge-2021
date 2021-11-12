@@ -1,0 +1,26 @@
+.logout-button{
+    background-color: #404040 !important;
+}
+
+.pro-icon-wrapper{
+    font-size: 28px !important;
+}
+
+.pro-item-content{
+    font-size: 1rem !important;
+}
+
+.sidebar-container{
+    height:100%
+}
+
+.sidebar-item{
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+@media only screen and (max-width:768px){
+    .sidebar-container{
+        height:0
+    }
+}

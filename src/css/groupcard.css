@@ -1,0 +1,6 @@
+.drop-area{
+    height:100px;
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+}

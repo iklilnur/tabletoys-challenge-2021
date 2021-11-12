@@ -1,0 +1,14 @@
+.puzzle-menu{
+    background-color: #323232 !important;
+}
+
+.puzzle-title{
+    font-size: 1.2rem;
+    font-weight: 600;
+    border-bottom: solid 2px white;
+}
+
+.puzzle-rules{
+    font-size: 0.9rem;
+    font-weight: 400;
+}
